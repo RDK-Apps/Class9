@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Moments_english_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="Moments (IX)"
+            app:titleTextColor="#fff"
+            tools:ignore="MissingConstraints"/>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/layout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/unit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 1\nThe Lost Child"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 2\nThe Adventure of toto"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 3\nIswaran the Storyteller"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 4\nIn the Kingdom of Fools"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 5\nThe Happy Prince "
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 6\nWeathering the Storm In Ersama"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 7\nThe Last Leaf"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 8\nA House is not A Home"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 9\nThe Accidental Tourist"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 10\nThe Beggar"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1873084368980224/7664562985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

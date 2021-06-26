@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="www.notes4you.in_class9_cbse_English_Medium">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1873084368980224~1290726322"/>
+
+        <activity android:name=".Webview" />
+        <activity android:name=".ICT_book" android:parentActivityName=".IT_English_Medium"/>
+        <activity android:name=".PE_book" android:parentActivityName=".PE_English_Medium"/>
+        <activity android:name=".Abhyaswaan_Sanskrit_book" android:parentActivityName=".Sanskrit_English_Medium"/>
+        <activity android:name=".vyakaranavithi_sansakrit_book" android:parentActivityName=".Sanskrit_English_Medium"/>
+        <activity android:name=".Sheemushi_prathmo_sanskrit_book" android:parentActivityName=".Sanskrit_English_Medium"/>
+        <activity android:name=".sanchayan_hindi_book" android:parentActivityName=".Hindi_English_medium"/>
+        <activity android:name=".Kritika_hindi_book" android:parentActivityName=".Hindi_English_medium"/>
+        <activity android:name=".sparsh_hindi_Book" android:parentActivityName=".Hindi_English_medium"/>
+        <activity android:name=".Shitij_hindi_book" android:parentActivityName=".Hindi_English_medium"/>
+        <activity android:name=".Word_Expression_english_medium" android:parentActivityName=".English_English_medium"/>
+        <activity android:name=".Moments_english_medium" android:parentActivityName=".English_English_medium"/>
+        <activity android:name=".Beehive_English_Medium" android:parentActivityName=".English_English_medium"/>
+        <activity android:name=".History_enlish_medium" android:parentActivityName=".Social_Studies_English_Medium"/>
+        <activity android:name=".Economics_english_medium" android:parentActivityName=".Social_Studies_English_Medium"/>
+        <activity android:name=".Contemporary_India_english_medium" android:parentActivityName=".Social_Studies_English_Medium"/>
+        <activity android:name=".Democratic_politics_english_medium" android:parentActivityName=".Social_Studies_English_Medium"/>
+        <activity android:name=".Science_Examplar_english_medium" android:parentActivityName=".Science_Examplar_english_medium"/>
+        <activity android:name=".Science_book_english_medium" android:parentActivityName=".Science_English_Medium"/>
+        <activity
+            android:name=".Maths_Exemplar_english_medium"
+            android:parentActivityName=".Mathematics_English_medium" />
+        <activity
+            android:name=".Maths_book_english_medium"
+            android:parentActivityName=".Mathematics_English_medium" />
+        <activity
+            android:name=".IT_English_Medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".PE_English_Medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".Sanskrit_English_Medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".Hindi_English_medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".English_English_medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".Social_Studies_English_Medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".Science_English_Medium"
+            android:parentActivityName=".home1" />
+        <activity
+            android:name=".Mathematics_English_medium"
+            android:parentActivityName=".home1" />
+        <activity android:name=".home1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

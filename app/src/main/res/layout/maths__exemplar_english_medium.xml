@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".Maths_book_english_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="Maths Exemplar (IX)"
+            app:titleTextColor="#fff"
+            tools:ignore="MissingConstraints"/>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/layout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/unit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 1\nNumber System"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 2\nPolynomials"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 3\nCoordinate Geometry"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 4\nLinear Equations in two Variables"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 5\nIntroduction to Euclid's Geometry"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 6\nLines And Angles"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 7\nTriangles"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 8\nQuadrilaterals"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 9\nArea of Parallelogram And Triangles"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 10\nCircles"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 11\nConstructions"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 12\nHeron's Formula"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 13\nSurface Area And Volumes"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 14\nStatistics and Probability"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1873084368980224/7664562985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

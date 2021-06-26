@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".English_English_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="ENGLISH"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/layout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/layout"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/syllabus_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="10dp"
+                            android:text="Syllabus"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/syllabus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="serif"
+                            android:background="@drawable/btn_background"
+                            android:textColor="#fff"
+                            android:text="English Syllabus"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout"
+                        android:padding="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/books_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="10dp"
+                            android:text="Books"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.gridlayout.widget.GridLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="10dp">
+
+                            <Button
+                                android:id="@+id/Beehive"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/btn_background"
+                                android:drawableTop="@drawable/beehive"
+                                android:fontFamily="serif"
+                                android:minWidth="150dp"
+                                android:padding="5dp"
+                                android:text="Beehive (IX)"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                app:layout_column="0"
+                                app:layout_row="0" />
+
+                            <Button
+                                android:id="@+id/Moments"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/btn_background"
+                                android:drawableTop="@drawable/moments"
+                                android:fontFamily="serif"
+                                android:minWidth="150dp"
+                                android:padding="5dp"
+                                android:text="Moments (IX)"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                app:layout_column="1"
+                                app:layout_row="0" />
+
+                            <Button
+                                android:id="@+id/Word_and_expression"
+                                android:layout_width="300dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/btn_background"
+                                android:drawableTop="@drawable/workbook"
+                                android:fontFamily="serif"
+                                android:minWidth="150dp"
+                                android:padding="5dp"
+                                android:text="Words And\nExpression (IX)"
+                                android:textColor="#fff"
+                                android:textStyle="bold"
+                                app:layout_column="0"
+                                app:layout_row="1" />
+
+                        </androidx.gridlayout.widget.GridLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/layout"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/Sample_Paper_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="10dp"
+                            android:text="Sample Papers"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <androidx.gridlayout.widget.GridLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_gravity="center_horizontal">
+
+                            <Button
+                                android:id="@+id/sample_paper_1"
+                                android:layout_width="300dp"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/btn_background"
+                                android:fontFamily="serif"
+                                android:textColor="#fff"
+                                android:padding="15dp"
+                                android:text="Sample Paper 1"
+                                android:layout_marginBottom="10dp"
+                                android:textStyle="bold"
+                                app:layout_row="0"
+                                app:layout_column="0"/>
+                            <Button
+                                android:id="@+id/sample_paper_2"
+                                android:layout_width="300dp"
+                                android:layout_height="60dp"
+                                android:textColor="#fff"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/btn_background"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="serif"
+                                android:padding="15dp"
+                                android:text="Sample Paper 2"
+                                android:textStyle="bold"
+                                app:layout_row="0"
+                                app:layout_column="1"/>
+                            <Button
+                                android:id="@+id/sample_paper_3"
+                                android:layout_width="300dp"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/btn_background"
+                                android:fontFamily="serif"
+                                android:padding="15dp"
+                                android:textColor="#fff"
+                                android:text="Sample Paper 3"
+                                android:textStyle="bold"
+                                app:layout_row="1"
+                                app:layout_column="0"/>
+                            <Button
+                                android:id="@+id/sample_paper_4"
+                                android:layout_width="300dp"
+                                android:layout_height="60dp"
+                                android:textColor="#fff"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/btn_background"
+                                android:fontFamily="serif"
+                                android:padding="15dp"
+                                android:text="Sample Paper 4"
+                                android:textStyle="bold"
+                                app:layout_row="1"
+                                app:layout_column="1"/>
+                            <Button
+                                android:id="@+id/sample_paper_5"
+                                android:layout_width="300dp"
+                                android:layout_height="60dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/btn_background"
+                                android:fontFamily="serif"
+                                android:textColor="#fff"
+                                android:padding="15dp"
+                                android:text="Sample Paper 5"
+                                android:textStyle="bold"
+                                app:layout_row="2"
+                                app:layout_column="0"/>
+
+
+                        </androidx.gridlayout.widget.GridLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1873084368980224/7664562985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Sheemushi_prathmo_sanskrit_book">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="Sheemushi_prathmo (IX)"
+            app:titleTextColor="#fff"
+            tools:ignore="MissingConstraints"/>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/layout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/unit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 1\nभारतीवसन्तगीतिः"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 2\nस्वर्णकाकः"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 3\nसोमप्रभम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 4\nकल्पतरूः"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 5\nसूक्तिमौक्तिकम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 6\nभ्रान्तो बालः"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 7\nप्रत्यभिग्यानम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 8\nलौहतुला"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 9\nसिकतासेतुः"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 10\nजटायोः शौर्यम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 11\nपर्यावरणम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+                    <Button
+                        android:id="@+id/unit12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 12\nवाडमनःप्राणस्वरूपम्"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1873084368980224/7664562985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Economics_english_medium">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="Economics (IX)"
+            app:titleTextColor="#fff"
+            tools:ignore="MissingConstraints"/>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/layout">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/unit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 1\nThe Story of Village Palampur"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 2\nPeople as Resource"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 3\nPoverty as a Challenge"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                    <Button
+                        android:id="@+id/unit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffff"
+                        android:fontFamily="serif"
+                        android:padding="15dp"
+                        android:text="UNIT 4\nFood Security In India"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginVertical="5dp"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-1873084368980224/7664562985"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

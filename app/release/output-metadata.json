@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "www.notes4you.in_class9_cbse_English_Medium",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 2,
+      "versionName": "1.01",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}
