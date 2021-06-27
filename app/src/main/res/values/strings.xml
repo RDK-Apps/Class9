@@ -2,4 +2,13 @@
     <string name="app_name">Class 9</string>
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PYQs">PYQ\'s</string>
+    <string name="VideoLectures">Video Lectures</string>
+    <string name="SamplePapers">Sample Papers</string>
+    <string name="Books">Books</string>
+    <string name="Solutions">NCERT Solutions</string>
+    <string name="AllResourse">All</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Fragment.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_margin="20dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="18sp">
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_layout">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_NCERT_Books"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_orange"
+                    android:text="NCERT Books"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/ic_notes"
+                    app:iconPadding="0dp"
+                    app:iconSize="40dp"
+                    app:iconTint="#fff" />
+                <Button
+                    android:id="@+id/btn_video_Lectures"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_blue"
+                    android:text="Video Lectures"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/ic_video"
+                    app:iconPadding="10dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_NCERT_Solutions"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_green"
+                    android:text="NCERT Solutions"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:icon="@drawable/ic_results"
+                    app:iconPadding="10dp" />
+
+                <Button
+                    android:id="@+id/SamplePapers"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_light_blue"
+                    android:text="Sample Papers"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="UnusedAttribute" />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjects"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:layout_gravity="start"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/subjects_recyclerview"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        <Button
+            android:id="@+id/about_csvtu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="25dp"
+            android:backgroundTint="#C6E1E4"
+            android:text="About CSVTU"
+            android:textAllCaps="false"
+            android:textColor="#070707"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/ic_video"
+            app:iconPadding="10dp"
+            app:iconSize="40dp"
+            app:iconTint="#070707" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
